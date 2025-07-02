@@ -6,8 +6,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/bdstudio",
-  assetPrefix: "/bdstudio",
 };
 
 export default nextConfig;
