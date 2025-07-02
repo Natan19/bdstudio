@@ -34,7 +34,6 @@ export default function Home() {
                   alt="BD Studio Logo"
                   className="w-auto h-24 rounded"
                 />
-                <div className="w-2 h-2 bg-orange-500 rounded-full animate-pulse"></div>
               </div>
             </div>
 
@@ -46,7 +45,7 @@ export default function Home() {
             </div>
 
             <p className="text-xl md:text-2xl text-gray-300 font-light tracking-wide">
-              Indie Game Development
+              Brazilian indie game development studio
             </p>
           </div>
 
@@ -55,7 +54,7 @@ export default function Home() {
             <div className="flex items-center justify-center space-x-3">
               <div className="w-3 h-3 bg-orange-500 rounded-full animate-pulse"></div>
               <h2 className="text-2xl font-bold text-white">
-                Currently Under Construction
+                Work in progress
               </h2>
               <div className="w-3 h-3 bg-orange-500 rounded-full animate-pulse"></div>
             </div>
@@ -63,33 +62,12 @@ export default function Home() {
             <div className="h-px bg-gradient-to-r from-transparent via-gray-600 to-transparent"></div>
 
             <p className="text-lg text-gray-300 leading-relaxed">
-              BD Studio is an indie gaming development company that is still
-              being built. We&apos;re working hard to bring you amazing gaming
-              experiences.
+              We&apos;re a passionate brazilian indie game development studio
+              funded in 2024, we believe in creating gaming experiences that
+              matter and are thrilled for what&apos;s coming. Stay tuned!
             </p>
-
-            <div className="text-white font-semibold">
-              Stay tuned for future releases
-            </div>
             <div className="h-px bg-gradient-to-r from-transparent via-orange-500 to-transparent opacity-20"></div>
           </div>
-        </div>
-      </div>
-
-      {/* Bottom status bar */}
-      <div className="absolute bottom-0 left-0 right-0 bg-gray-900 border-t border-gray-800 px-8 py-4">
-        <div className="flex items-center justify-between max-w-6xl mx-auto">
-          <div className="flex items-center space-x-6 text-sm text-gray-400">
-            <div className="flex items-center space-x-2">
-              <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-              <span>System Online</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
-              <span>In Development</span>
-            </div>
-          </div>
-          <div className="text-sm text-gray-500 font-mono">v0.1.0-alpha</div>
         </div>
       </div>
 
